@@ -7,7 +7,6 @@ from user import User
 
 @pytest.fixture
 def registered_user(delete_courier):
-    """Fixture that creates and registers a new user, then cleans up after test"""
     user = User()
     response, login_pass = user.register_new_courier_and_return_login_password()
     
@@ -22,8 +21,7 @@ def registered_user(delete_courier):
 
 @pytest.fixture
 def unregistered_user():
-    user = User()
-    return user
+    return User()
 
 @pytest.fixture
 def delete_courier():

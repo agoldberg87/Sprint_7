@@ -13,3 +13,5 @@ insufficient_registration_data_message = "Недостаточно данных 
 occupied_login_message = "Этот логин уже используется. Попробуйте другой."
 login_not_found_message = "Учетная запись не найдена"
 insufficient_login_data_message = "Недостаточно данных для входа"
+courier_not_found_message = "Курьера с таким id нет."
+courier_not_found_message_empty = "Not Found."
